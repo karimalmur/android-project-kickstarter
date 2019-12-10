@@ -14,7 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.com.example.app.ui.MainActivity">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:theme="@style/AppTheme.Launcher"
+        >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
