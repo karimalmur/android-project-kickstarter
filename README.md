@@ -25,6 +25,7 @@ The project is divided into 2 modules.
     * Download google-services.json to src/debug and remove src/debug/google-services-template.json
 4. Create a signing key for signing the release build. Take note of keystore password, password, and alias.
 5. Rename keystore-template.properties to keystore and fill out the placeholders with outputs from step 4.
+
 DONE!
 
 ### Requirements
@@ -47,10 +48,6 @@ DONE!
 -- [ReleaseTree](app/src/main/java/com/example/app/utils/ReleaseTree.kt) timber tree is planted by default. It reports errors and exception to Crashlytics.
 - [Retrofit](https://github.com/square/retrofit) HTTP Client. Setup with OkHttp and some useful interceptors.
 - [ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP) Java Time backport 
-
-## Authors
-
-* **Karim Almur** - *Initial work* - [PurpleBooth](https://github.com/karimit)
 
 ## License
 
